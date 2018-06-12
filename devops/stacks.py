@@ -10,7 +10,7 @@ env.local_stack = DjangoBasicStack(host=UbuntuMachine.new_local(project_path=sec
                                    db_name='prode_local',
                                    db_user=secrets['local_db_user'],
                                    db_password=secrets['local_db_password'],
-                                   remote_url='git@gitlab.com:eryx/prode.git',
+                                   remote_url='git@github.com:GermanDeSousa/prode-eryx.git',
                                    requirements_file_path='requirements.txt',
                                    virtual_env_path=secrets['local_virtual_env_path'],
                                    major_python_version=3)
@@ -24,7 +24,7 @@ env.stacks['staging'] = DjangoBasicStack(host=UbuntuMachine.new_remote(
                                          db_user='postgres',
                                          db_port='5432',
                                          db_password=secrets['production_db_password'],
-                                         remote_url='git@gitlab.com:eryx/prode.git',
+                                         remote_url='git@github.com:GermanDeSousa/prode-eryx.git',
                                          requirements_file_path='requirements.txt',
                                          virtual_env_path='%s/bootstrap' % secrets['production_project_path'],
                                          major_python_version=3,
