@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'css/games.css' %}">
+{% endblock %}
+
+{% block main_content %}
+    <div class="content">
+        <form class="form" method="post">
+            {% csrf_token %}
+            {% for group, matches in group_zone_matches %}
+            <div class="row group">
+                    <p class="pull-left group-name"> Grupo "{{ group }}"</p>
+                    {% for match in matches %}
+                        <div class="input-group match">
+                            <p class="match-date">{{ match.date }}</p>
+                            <img src="/static/images/{{match.home_team }}.svg" class="flag">
+                            <label class="home-team-name" >{{ match.home_team }}</label>
+                            <input type="number" min="0" class="form-control home-match-result" name={{ match.id }} required>
+                            <input type="number" min="0" class="form-control visiting-match-result" name={{ match.id }} required>
+                            <label class="visiting-team-name">{{ match.visiting_team }}</label>
+                            <img src="/static/images/{{ match.visiting_team }}.svg" class="flag">
+                        </div>
+                    {% endfor %}
+            </div>
+            {% endfor %}
+            <div class="row">
+                <button type="submit" value="{{ player_name }}">Siguiente</button>
+            </div>
+        </form>
+    </div>
+    {{ block.super }}
+{% endblock %}

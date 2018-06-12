@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block main_content %}
+    <div class="content">
+        <div class="header">
+            <h1>Prode </h1>
+            <img class="logo" src="/static/images/logo_eryx.png">
+        </div>
+        <div>
+            <img src="/static/images/worldcup.png" alt="">
+        </div>
+        <form action="{% url 'group_zone_games' %}" method="get">
+            <select name="player">
+                {% for player in players_results %}
+                    <option value="{{ player.name }}"> {{ player.name }} </option>
+                {% endfor %}
+            </select>
+            <button type="submit"> Jugar </button>
+        </form>
+        <ul>
+{#            {% for player in players_results %}#}
+{#                <li>#}
+{#                    <img class="face" src="/static/images/{{ player.name }}.svg">#}
+{#                    <div class="player-data">#}
+{#                        <p class="name">{{ player.name }}</p>#}
+{#                        <p class="score">{{ player.score }}</p>#}
+{#                    </div>#}
+{#                </li>#}
+{#            {% endfor %}#}
+        </ul>
+    </div>
+    {{ block.super }}
+{% endblock %}

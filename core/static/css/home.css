@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500,600');
+
+body {
+    background-image: url("/static/images/background.jpg");
+}
+
+.content {
+    width: 820px;
+    margin: 0 auto;
+    background-color: #8e0809;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: #e0c188;
+}
+
+form {
+    display: flex;
+    margin: 20px 0 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    background-color: white;
+    padding: 0;
+    display: inline-flex;
+    width: 70%;
+    margin: 0 0 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+li .player-data p {
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+li .player-data .name {
+    font-size: 2.3em;
+    color: #3794d1;
+}
+
+li .player-data .score {
+    color: #8e0809;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+li .player-data {
+    margin: 0 15px 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .face {
+    height: 60px;
+}
+
+button {
+    font-size: 1.5em;
+    margin-left: 15px;
+    font-family: 'Teko', sans-serif;
+}

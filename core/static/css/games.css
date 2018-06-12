@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500,600');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    background-image: url("/static/images/background.jpg");
+}
+
+.content {
+ padding: 50px 0;
+}
+
+.group {
+    width: 820px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.group-name {
+    width: 100%;
+    font-family: 'Teko', sans-serif;
+    background-color: #8e0809;
+    color: white;
+    font-size: 2.5em;
+    padding: 3px 0 0 10px;
+    margin: 10px 0 5px 0;
+    line-height: 1.2em;
+}
+
+.match-date {
+    font-size: 1em;
+    width: 100px;
+    margin: 0 15px 0 0;
+    background-color: #e0c188;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.home-team-name {
+    font-size: 2em;
+    width: 225px;
+    text-align: right;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.visiting-team-name{
+    font-size: 2em;
+    width: 225px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.match {
+    align-items: center;
+    background-color: #3794d1;
+    margin-bottom: 5px;
+}
+
+.home-match-result {
+    max-width: 60px;
+    margin-right: 5px;
+    margin-left: 20px;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 500;
+    padding: 2px 0;
+}
+
+.visiting-match-result {
+    max-width: 60px;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 500;
+    padding: 2px 0;
+}
+
+.flag {
+    width: 40px;
+    height: 27px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    background-color: #8e0809;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    width: 600px;
+    margin: 60px auto 0;
+}
+
+.link-to-home {
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    background-color: #8e0809;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    width: 600px;
+    margin: 60px auto 0;
+}

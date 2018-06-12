@@ -1,0 +1,49 @@
+date,group,home,visiting
+14/06/2018 12:00,A,Rusia,Arabia Saudita
+15/06/2018 9:00,A,Egipto,Uruguay
+15/06/2018 12:00,B,Marruecos,Iran
+15/06/2018 15:00,B,Portugal,España
+16/06/2018 7:00,C,Francia,Australia
+16/06/2018 10:00,D,Argentina,Islandia
+16/06/2018 13:00,C,Peru,Dinamarca
+16/06/2018 16:00,D,Croacia,Nigeria
+17/06/2018 9:00,E,Costa Rica,Serbia
+17/06/2018 12:00,F,Alemania,Mexico
+17/06/2018 15:00,E,Brasil,Suiza
+18/06/2018 9:00,F,Suecia,Corea del Sur
+18/06/2018 12:00,G,Belgica,Panama
+18/06/2018 15:00,G,Tunez,Inglaterra
+19/06/2018 9:00,H,Colombia,Japon
+19/06/2018 12:00,H,Polonia,Senegal
+19/06/2018 15:00,A,Rusia,Egipto
+20/06/2018 9:00,B,Portugal,Marruecos
+20/06/2018 12:00,A,Uruguay,Arabia Saudita
+20/06/2018 15:00,B,Iran,España
+21/06/2018 9:00,C,Dinamarca,Australia
+21/06/2018 12:00,C,Francia,Peru
+21/06/2018 15:00,D,Argentina,Croacia
+22/06/2018 9:00,E,Brasil,Costa Rica
+22/06/2018 12:00,C,Nigeria,Islandia
+22/06/2018 15:00,E,Serbia,Suiza
+23/06/2018 9:00,G,Belgica,Tunez
+23/06/2018 12:00,F,Corea del Sur,Mexico
+23/06/2018 15:00,F,Alemania,Suecia
+24/06/2018 9:00,G,Inglaterra,Panama
+24/06/2018 12:00,H,Japon,Senegal
+24/06/2018 15:00,H,Polonia,Colombia
+25/06/2018 11:00,A,Uruguay,Rusia
+25/06/2018 11:00,A,Arabia Saudita,Egipto
+25/06/2018 15:00,B,Iran,Portugal
+25/06/2018 15:00,B,España,Marruecos
+26/06/2018 11:00,C,Dinamarca,Francia
+26/06/2018 11:00,C,Australia,Peru
+26/06/2018 15:00,D,Nigeria,Argentina
+26/06/2018 15:00,D,Islandia,Croacia
+27/06/2018 11:00,F,Mexico,Suecia
+27/06/2018 11:00,F,Corea del Sur,Alemania
+27/06/2018 15:00,E,Serbia,Brasil
+27/06/2018 15:00,E,Suiza,Costa Rica
+28/06/2018 11:00,H,Japon,Polonia
+28/06/2018 11:00,H,Senegal,Colombia
+28/06/2018 15:00,G,Panama,Tunez
+28/06/2018 15:00,G,Inglaterra,Belgica
